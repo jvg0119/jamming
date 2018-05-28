@@ -1,0 +1,63 @@
+
+.song-number {
+}
+
+.song-actions .ion-play {
+  font-size: 1.2rem;
+}
+
+#buttons #previous {
+  font-size: 25px;
+}
+
+#buttons #previous:hover {
+  cursor: pointer;
+  color: gray;
+}
+
+#buttons #next {
+  font-size: 25px;
+}
+
+#buttons #next:hover {
+  cursor: pointer;
+  color: gray;
+}
+
+#play-pause {
+  font-size: 25px;
+}
+
+#play-pause:hover {
+  cursor: pointer;
+  color: gray;
+}
+
+.song-actions .ion-play:hover {
+  background: #e0287b;
+  border-radius: 50%;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.song-actions  .ion-pause {
+  display: inline-block;
+  font-size: 1.2rem;
+  border-radius: 50%;
+  background: white;
+  color:  #e0287b;
+  height: 30px;
+  width: 30px;
+}
+
+.song-actions  .ion-pause:hover {
+  background: #e0287b;
+  color: white;
+  border-radius: 50%;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}

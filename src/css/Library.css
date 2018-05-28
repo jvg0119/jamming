@@ -1,0 +1,40 @@
+
+.section-library {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.section-library .library {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.album-item {
+  margin-top: 50px;
+  flex: 2;
+  display: block;
+  height: 250px;
+  width: 250px;
+  color: #efe6ef;
+  text-decoration: none;
+  padding: 5px;
+}
+
+.album-item:hover {
+  font-weight: bold;
+}
+
+.album-item .image {
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+}
+
+.image img {
+  height: 150%;
+  width: auto;
+}
+
+.album-item div:first-child {
+  margin-bottom: 30px;
+}

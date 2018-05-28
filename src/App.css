@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400');
+
+.App {
+}
+
+nav {
+  display: flex;
+}
+
+nav .landing-jamming {
+  flex: 1;
+  display: block;
+  font-size: 270%;
+  font-weight: 400;
+  padding-top: 30px;
+  padding-left: 75px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+nav .landing-library {
+  flex: 1;
+  text-align: right;
+  display: block;
+  font-size: 130%;
+  font-weight: 400;
+  padding-right: 75px;
+  padding-top: 55px;
+  color: white;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* ======================================== */
+@media only screen and (max-width: 767px) {
+  nav .landing-jamming {
+    padding-left: 20px;
+  }
+
+  nav .landing-library {
+    padding-right: 20px;
+  }
+}
+
+/* ======================================== */

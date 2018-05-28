@@ -1,0 +1,115 @@
+
+.album {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+#album-info {
+  display: flex;
+  margin-top: 50px;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+}
+
+.album-details {
+  margin: 10%;
+}
+
+/* =========== */
+#song-list {
+  width: 80%;
+  padding: 20px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.song {
+  font-size: 1rem;
+  line-height: 30px;
+}
+
+th, td {
+    border-bottom: 3px ridge gray;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.song .song-actions {
+  text-align: center;
+  width: 60px;
+}
+
+.song .song-title {
+  padding-left: 20px;
+}
+
+.song .song-duration {
+  text-align: center;
+}
+
+/* =========== */
+
+.player-bar {
+  width: 500px;
+  margin: 20px auto;
+  text-align: center;
+  font-size: .9rem;
+  padding: 20px;
+  margin-bottom: 100px;
+}
+
+/* ==================================================== */
+
+/* big tablet to 1200px (width smaller than the 1140px row) */
+@media only screen and (max-width: 1023px) {
+  .album {
+    width: 700px;
+    font-size: 80%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .album {
+    width: 400px;
+    font-size: 80%;
+  }
+
+  img {
+    width: 220px;
+    height: 220px;
+  }
+
+  #song-list {
+    width: 100%;
+    padding: 5px;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .song .song-actions {
+    width: 40px;
+  }
+
+  .song .song-title {
+    padding-left: 3px;
+  }
+
+  .song .song-duration {
+    text-align: center;
+    width: 45px;
+  }
+
+  .player-bar {
+    width: 300px;
+    margin: 20px auto;
+  }
+}
+
+
+/*    */
