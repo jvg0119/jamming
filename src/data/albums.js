@@ -43,7 +43,7 @@ export default [{
   title: 'Black and White',
   artist: 'Pablo Picasso',
   releaseInfo: '1909 Spanish Records',
-  albumCover: '/assets/images/album_covers/04.jpg',
+  albumCover: '/assets/images/album_covers/01.jpg',
   slug: 'black-and-white',
   songs: [
       { title: 'Blue', duration: '161.71', audioSrc: '/assets/music/blue.mp3' },
@@ -57,7 +57,7 @@ export default [{
   title: 'The Violin',
   artist: 'Pablo Picasso',
   releaseInfo: '1909 Spanish Records',
-  albumCover: '/assets/images/album_covers/05.jpg',
+  albumCover: '/assets/images/album_covers/02.jpg',
   slug: 'the-violine',
   songs: [
       { title: 'Blue', duration: '161.71', audioSrc: '/assets/music/blue.mp3' },
@@ -71,7 +71,7 @@ export default [{
   title: 'The Balloon',
   artist: 'Pablo Picasso',
   releaseInfo: '1909 Spanish Records',
-  albumCover: '/assets/images/album_covers/06.jpg',
+  albumCover: '/assets/images/album_covers/03.jpg',
   slug: 'the-balloon',
   songs: [
       { title: 'Blue', duration: '161.71', audioSrc: '/assets/music/blue.mp3' },
@@ -85,7 +85,7 @@ export default [{
   title: 'The Pine',
   artist: 'Pablo Picasso',
   releaseInfo: '1909 Spanish Records',
-  albumCover: '/assets/images/album_covers/07.jpg',
+  albumCover: '/assets/images/album_covers/01.jpg',
   slug: 'the-pine',
   songs: [
       { title: 'Blue', duration: '161.71', audioSrc: '/assets/music/blue.mp3' },
@@ -99,7 +99,7 @@ export default [{
   title: 'The Computer',
   artist: 'Pablo Picasso',
   releaseInfo: '1909 Spanish Records',
-  albumCover: '/assets/images/album_covers/08.jpg',
+  albumCover: '/assets/images/album_covers/02.jpg',
   slug: 'the-computer',
   songs: [
       { title: 'Blue', duration: '161.71', audioSrc: '/assets/music/blue.mp3' },
@@ -113,7 +113,7 @@ export default [{
   title: 'The Lights',
   artist: 'Pablo Picasso',
   releaseInfo: '1909 Spanish Records',
-  albumCover: '/assets/images/album_covers/09.jpg',
+  albumCover: '/assets/images/album_covers/03.jpg',
   slug: 'the-lights',
   songs: [
       { title: 'Blue', duration: '161.71', audioSrc: '/assets/music/blue.mp3' },
@@ -127,7 +127,7 @@ export default [{
   title: 'The Girl',
   artist: 'Pablo Picasso',
   releaseInfo: '1909 Spanish Records',
-  albumCover: '/assets/images/album_covers/10.jpg',
+  albumCover: '/assets/images/album_covers/01.jpg',
   slug: 'the-girl',
   songs: [
       { title: 'Blue', duration: '161.71', audioSrc: '/assets/music/blue.mp3' },
